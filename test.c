@@ -1,12 +1,12 @@
-#include <mysql/mysql.h>
+#include <mysql/mysql.h>//initiate the path of mySQL on your folder.
 #include <string.h>
 #include <stdio.h>
 
 
 #define DB_HOST "127.0.0.1"
-#define DB_USER "root"
-#define DB_PASS "root"
-#define DB_NAME "web_project"
+#define DB_USER "r***" //check own sql user id
+#define DB_PASS "r****" //check own sql password
+#define DB_NAME "*****". //name of table
 #define CHOP(x) x[strlen(x) - 1] = ' '
     
 int main(void)
